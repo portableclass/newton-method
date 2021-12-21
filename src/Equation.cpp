@@ -3,7 +3,7 @@
 // 0. The local functions:
 void IterReport(const unsigned int& iter, const double& x_new, const double& delta)
 {
-	//std::printf("\nIteration %i\nx_new = %1.15e\ndelta = %1.15e\n", iter, x_new, delta);
+	std::printf("\nIteration %i\nx_new = %1.15e\ndelta = %1.15e\n", iter, x_new, delta);
 };
 
 // 1.1. The Newton's method:
