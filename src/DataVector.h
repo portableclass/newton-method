@@ -35,6 +35,6 @@ public:
 	void Save(const std::string&, int = 6);
 	const double& at(const unsigned int&);
 	void push_back(const double&);
-	const unsigned int& size();
+	const unsigned int size();
 };
 

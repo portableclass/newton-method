@@ -82,7 +82,7 @@ void DataVector::push_back(const double& value)
 {
 	data.push_back(value);
 };
-const unsigned int& DataVector::size() 
+const unsigned int DataVector::size()
 {
-	return 1;
+	return data.size();
 }
