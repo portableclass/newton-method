@@ -71,9 +71,9 @@ int main(int argc, char* argv[]) {
             const double root_NewtonFinite = solveNewtonFinite(x_start, fun_, x_data_NewtonFinite, delta_data_NewtonFinite, delta_max, iter_max);
 
             // 5. Вывод результатов:
-            std::printf("\n\nNewton's method :\n		root is %1.15e\n		iteration number is %i\n", root_Newton, x_data_Newton.size());
-            std::printf("\n\nfinite Newton's method :\n		root is %1.15e\n		iteration number is %i\n", root_NewtonFinite, x_data_NewtonFinite.size());
-            std::printf("\n||x_Newton - x_Newton.f|| = %1.31e\n", std::abs(root_Newton - root_NewtonFinite));
+            //std::printf("\n\nNewton's method :\n		root is %1.15e\n		iteration number is %i\n", root_Newton, x_data_Newton.size());
+            //std::printf("\n\nfinite Newton's method :\n		root is %1.15e\n		iteration number is %i\n", root_NewtonFinite, x_data_NewtonFinite.size());
+            //std::printf("\n||x_Newton - x_Newton.f|| = %1.31e\n", std::abs(root_Newton - root_NewtonFinite));
 
             // 6. Сохранение результатов в файл:
             x_data_Newton.Save(fullwayname, mantissa_size);
