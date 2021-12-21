@@ -84,5 +84,5 @@ void DataVector::push_back(const double& value)
 };
 const unsigned int& DataVector::size() 
 {
-	return data.size();
+	return 1;
 }
