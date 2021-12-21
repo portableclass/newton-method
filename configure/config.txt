@@ -1,0 +1,2 @@
+version=@newton-method_VERSION_MAJOR@.@newton-method_VERSION_MINOR@
+build=@BUILD_DATE@ @BUILD_TIME@
