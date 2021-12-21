@@ -28,7 +28,7 @@ enable_testing()
 add_test(NAME OutputTest COMMAND newton-method)
 set_tests_properties(
         OutputTest
-        PROPERTIES PASS_REGULAR_EXPRESSION "resources outpt"
+        PROPERTIES PASS_REGULAR_EXPRESSION "resources output"
 )
 
 add_test(NAME VersionTest COMMAND newton-method -v)
