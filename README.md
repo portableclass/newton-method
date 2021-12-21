@@ -1,3 +1,3 @@
 # newton-method
 
-![CMake](https://github.com/ryantherileyman/cmake-testing-grounds/actions/workflows/cmake.yml/badge.svg)
+![CMake](https://github.com/portableclass/newton-method/actions/workflows/cmake.yml/badge.svg)
