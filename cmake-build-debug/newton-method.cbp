@@ -76,7 +76,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/yash/Desktop/newton-method/main.cpp">
+		<Unit filename="/Users/yash/Desktop/newton-method/src/DataVector.cpp">
+			<Option target="newton-method"/>
+		</Unit>
+		<Unit filename="/Users/yash/Desktop/newton-method/src/DataVector.h">
+			<Option target="newton-method"/>
+		</Unit>
+		<Unit filename="/Users/yash/Desktop/newton-method/src/Equation.cpp">
+			<Option target="newton-method"/>
+		</Unit>
+		<Unit filename="/Users/yash/Desktop/newton-method/src/Equation.h">
+			<Option target="newton-method"/>
+		</Unit>
+		<Unit filename="/Users/yash/Desktop/newton-method/src/main.cpp">
 			<Option target="newton-method"/>
 		</Unit>
 		<Unit filename="/Users/yash/Desktop/newton-method/CMakeLists.txt">

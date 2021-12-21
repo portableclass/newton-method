@@ -12,7 +12,9 @@ configure_file(configure/config.txt resources/config.txt)
 
 add_executable(
         newton-method
-        main.cpp
+        src/main.cpp
+        src/DataVector.cpp
+        src/Equation.cpp
 )
 
 add_custom_command(
